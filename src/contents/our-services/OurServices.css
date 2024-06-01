@@ -15,13 +15,13 @@
 .Enhasments h3,
 .Key-Benefits h3 {
   font-family: "R3";
-  color: rgb(29, 138, 255);
+  color: rgb(255, 255, 255);
 }
 
 .Service-Des h3 span,
 .Enhasments h3 span,
 .Key-Benefits h3 span {
-  color: rgb(0, 255, 98);
+  color: rgb(89, 166, 255);
 }
 
 .Service-Des p {
@@ -50,14 +50,14 @@
   border-width: 1px;
   font-family: "R3";
   border-color: rgba(29, 138, 255, 0.301);
-  border-radius: 5px;
+  border-radius: 8px;
   background-color: rgb(0, 0, 10);
 }
 
 .Service-Card h6 {
   font-family: "R4";
-  color: rgb(29, 138, 255);
-  font-size: 14px;
+  color: rgb(89, 166, 255);
+  font-size: 15px;
 }
 
 .Service-Card p {
@@ -86,4 +86,41 @@
   background-image: url("../../assets/images/service_side.png");
   background-size: cover;
   overflow: visible;
+}
+
+.Key-Benefits {
+  background-color: rgba(0, 0, 0, 0.792);
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: rgba(89, 166, 255, 0.349);
+}
+
+.Benefit-Icon {
+  height: 45px;
+  width: 45px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 100%;
+  border-color: rgb(89, 166, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(89, 166, 255, 0.099);
+}
+
+.Benefit-Icon i {
+  color: rgb(89, 166, 255);
+}
+
+.Benefit-Card h6 {
+  font-family: "R4";
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+
+.Benefit-Card li {
+  font-family: "R4";
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
 }

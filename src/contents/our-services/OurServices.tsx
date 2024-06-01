@@ -29,6 +29,65 @@ const OurServices = () => {
     },
   ];
 
+  const benefits: any = [
+    {
+      name: "Expertise and Experience",
+      icon: "bi bi-buildings",
+      contents: [
+        "Decades of Experience: Our team brings years of experience in software development, working across various industries.",
+        "Certified Professionals: Our developers are certified experts in the latest technologies and methodologies.",
+      ],
+    },
+    {
+      name: "Customer-Centric Approach",
+      icon: "bi bi-boxes",
+      contents: [
+        "Customized Solutions: We tailor our solutions to meet your unique business needs and goals.",
+        "Transparent Communication: We maintain clear and consistent communication throughout the project lifecycle.",
+      ],
+    },
+    {
+      name: "Innovation and Quality",
+      icon: "bi bi-cpu",
+      contents: [
+        "Cutting-Edge Technology: We leverage the latest technologies to build innovative and efficient solutions.",
+        "High-Quality Standards: Our rigorous quality assurance process ensures top-notch software performance and reliability.",
+      ],
+    },
+    {
+      name: "Agile and Adaptive",
+      icon: "bi bi-card-checklist",
+      contents: [
+        "We employ agile practices to ensure flexibility and timely delivery.",
+        "Our solutions are designed to scale with your business, accommodating growth and changes seamlessly.",
+      ],
+    },
+    {
+      name: "Strong Track Record",
+      icon: "bi bi-journal-text",
+      contents: [
+        "From ideation to deployment and maintenance, we provide comprehensive support throughout the entire software development lifecycle",
+        "Read our case studies and testimonials to see how we’ve helped businesses like yours succeed.",
+      ],
+    },
+    {
+      name: "Security and Compliance",
+      icon: "bi bi-database-lock",
+      contents: [
+        "We implement robust security protocols to protect your data and ensure compliance with industry standards.",
+        "Our solutions are designed to comply with all relevant regulations and industry standards.",
+      ],
+    },
+    {
+      name: "Let's Grow Together",
+      icon: "bi bi-trophy",
+      contents: [
+        "We view our clients as partners and work closely with you to achieve your business objectives.",
+        "Contact us today to discover how we can help you achieve your goals.",
+      ],
+    },
+  ];
+
   return (
     <div className="OurServices">
       <div className="Service-Des px-5 py-5">
@@ -53,7 +112,7 @@ const OurServices = () => {
       </div>
 
       <div className="Service-Cards row gx-0 px-5 pb-5">
-        {services.map((service) => (
+        {services.map((service: any) => (
           <div className="col-3 px-2">
             <div className="Service-Card pt-4 pb-3 px-4">
               <h6 className="text-center pb-4">{service.name}</h6>
@@ -128,10 +187,30 @@ const OurServices = () => {
         </div>
       </div>
 
-      <div className="Key-Benefits px-5 pt-5">
+      <div className="Key-Benefits px-5 pt-5 mt-5">
         <h3 className="mt-3">
           WHY CHOOSE US AS YOUR <span>TRUSTED</span> DIGITAL PARTNER
         </h3>
+
+        <div className="row gx-0">
+          {benefits.map((benefit: any) => (
+            <div className="col-3 mt-5 px-2">
+              <div className="Benefit-Card">
+                <div className="Benefit-Icon">
+                  <i className={benefit.icon}></i>
+                </div>
+
+                <h6 className="mt-3">{benefit.name}</h6>
+
+                <ul>
+                  {benefit.contents.map((cnt: string) => (
+                    <li>{cnt}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

@@ -1,0 +1,61 @@
+.Hero {
+  height: calc(100vh - 65px);
+  display: flex;
+  align-items: center;
+}
+
+.Hero-content {
+  width: 100%;
+}
+
+.Hero-Des {
+  height: calc(100vh - 65px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Hero-Side-Img {
+  height: calc(100vh - 65px);
+  width: 100%;
+  background-image: url("../../assets/images/hero_side.png");
+  background-size: cover;
+}
+
+.Hero-Slogan h1 {
+  font-family: "R2";
+  color: rgb(255, 255, 255);
+}
+
+.Hero-Slogan span {
+  font-family: "R2";
+  color: rgb(94, 177, 255);
+}
+
+.Hero-Slogan p {
+  font-family: "R4";
+  color: rgba(255, 255, 255, 0.767);
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.Hero-Slogan button {
+  border-style: none;
+  font-family: "R4";
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 137, 228);
+  border-radius: 4px;
+}
+
+.Social-Icons button {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 100%;
+  border-color: rgb(94, 177, 255);
+  background-color: rgba(127, 193, 255, 0.103);
+  color: rgb(0, 174, 255);
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

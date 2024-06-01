@@ -1,0 +1,22 @@
+.Header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.719);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(89, 166, 255, 0.349);
+}
+
+.Company-Brand img {
+  height: 35px;
+}
+
+.Navigations a {
+  font-family: "R3";
+  text-decoration: none;
+  font-size: 14px;
+  color: rgb(0, 204, 255);
+}

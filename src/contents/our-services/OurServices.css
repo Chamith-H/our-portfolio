@@ -1,0 +1,89 @@
+.OurServices {
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: rgba(89, 166, 255, 0.349);
+}
+
+.Service-Des {
+  background-color: rgb(0, 0, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(89, 166, 255, 0.349);
+}
+
+.Service-Des h3,
+.Enhasments h3,
+.Key-Benefits h3 {
+  font-family: "R3";
+  color: rgb(29, 138, 255);
+}
+
+.Service-Des h3 span,
+.Enhasments h3 span,
+.Key-Benefits h3 span {
+  color: rgb(0, 255, 98);
+}
+
+.Service-Des p {
+  font-family: "R4";
+  color: rgba(255, 255, 255, 0.651);
+  font-size: 15px;
+  text-align: justify;
+  padding-bottom: 150px;
+}
+
+.Enhasments p {
+  font-family: "R4";
+  color: rgba(255, 255, 255, 0.651);
+  font-size: 15px;
+  text-align: justify;
+}
+
+.Service-Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -160px;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  font-family: "R3";
+  border-color: rgba(29, 138, 255, 0.301);
+  border-radius: 5px;
+  background-color: rgb(0, 0, 10);
+}
+
+.Service-Card h6 {
+  font-family: "R4";
+  color: rgb(29, 138, 255);
+  font-size: 14px;
+}
+
+.Service-Card p {
+  font-family: "R4";
+  color: rgba(255, 255, 255, 0.575);
+  font-size: 14px;
+  text-align: center;
+}
+
+.Service-Card img {
+  width: 80%;
+}
+
+.Service-Image h3,
+.Service-Image h3 span,
+.Service-Image p {
+  color: rgba(0, 255, 255, 0);
+}
+
+.Fetch_image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../../assets/images/service_side.png");
+  background-size: cover;
+  overflow: visible;
+}
